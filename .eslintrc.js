@@ -96,8 +96,9 @@ module.exports = {
 		'react/jsx-props-no-spreading': OFF,
 
 		'lines-between-class-members': [ERROR, 'always'],
-		indent: [ERROR, 'tab', { SwitchCase: 1 }],
-		'linebreak-style': [ERROR, 'unix'],
+		// indent: [ERROR, 'tab', { SwitchCase: 1 }],
+		// 'linebreak-style': [ERROR, 'unix'],
+		'linebreak-style': [0, 'error', 'windows'],
 		quotes: [ERROR, 'single'],
 		semi: [ERROR, 'never'],
 		'no-unused-expressions': WARN,
