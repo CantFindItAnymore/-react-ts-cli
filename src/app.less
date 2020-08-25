@@ -2,7 +2,6 @@ html,
 body {
 	height: 100%;
 	width: 100%;
-	background: salmon;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -13,9 +12,17 @@ body {
 		width: 320px;
 		display: flex;
 		flex-direction: column;
-		justify-content: space-around;
 		align-items: center;
-		font-family: 'Times New Roman', Times, serif;
-		filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
+		font-size: 1.2rem;
+		filter: drop-shadow(0.5rem 0.5rem 0.8rem rgba(0, 0, 0, 0.5));
+
+		& > img {
+			border-radius: 10px;
+		}
+
+		& > h2 {
+			position: absolute;
+			bottom: 0;
+		}
 	}
 }
